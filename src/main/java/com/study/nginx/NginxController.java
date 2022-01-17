@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RestController
 public class NginxController {
+    //application.yml 매핑.
     @Value("${test.name}")
     private String name;
 
